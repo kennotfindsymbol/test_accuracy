@@ -1,0 +1,11 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore all files except example.jpg in pendinglist and safelist
+images/pendinglist/*
+!images/pendinglist/example.jpg
+images/safelist/*
+!images/safelist/example.jpg
+
+# Ignore all .DS_Store files in every folder and subfolder
+**/.DS_Store
