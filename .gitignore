@@ -10,4 +10,5 @@ images/safelist/*
 # Ignore all .DS_Store files in every folder and subfolder
 **/.DS_Store
 
-**/.csv
+# Ignore all csv
+**.csv
