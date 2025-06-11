@@ -2,8 +2,8 @@
 
 1. **Clone the repository and enter the directory:**
 ```
-git clone https://github.com/kennotfindsymbol/test_accuracy
-cd <repository-folder>
+git clone https://github.com/kennotfindsymbol/test_accuracy.git
+cd test_accuracy
 ```
 
 2. **Install dependencies:**
@@ -24,20 +24,20 @@ npm i
 
 4. **Run the classifier:**
 - **With default settings (threshold 0.9, no table output):**
-  ```
-  node app.js
-  ```
+```
+node app.js
+```
 - **With threshold and detailed output:**
-  ```
-  node app.js -t 0.85 -l
-  # or
-  node app.js --threshold 0.85 --long
-  ```
+```
+node app.js -t 0.85 -l
+# or
+node app.js --threshold 0.85 --long
+```
 - **With only threshold or only detailed output:**
-  ```
-  node app.js -t 0.8
-  node app.js -l
-  ```
+```
+node app.js -t 0.8
+node app.js -l
+```
 
 ## Output
 
